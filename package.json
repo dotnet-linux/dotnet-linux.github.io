@@ -1,0 +1,16 @@
+{
+  "name": "dotnet-linux.github.io",
+  "version": "1.0.0",
+  "description": "The official website repository for .NET/Linux.",
+  "main": "index.js",
+  "repository": "https://github.com/dotnet-linux/dotnet-linux.github.io",
+  "author": "MouriNaruto <Mouri_Naruto@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
