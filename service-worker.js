@@ -27,11 +27,31 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "6d386ff2338d81fbde313dbc5c33048a"
+    "revision": "5db3dd4a791ed37e1613e2a7d020404f"
   },
   {
     "url": "assets/css/0.styles.3aeb97d6.css",
     "revision": "ea4f17a4a1261b0797392c24412dfcc2"
+  },
+  {
+    "url": "assets/icons/android-chrome-192x192.png",
+    "revision": "81028d8a8dbfb475305e8ef9d8459d31"
+  },
+  {
+    "url": "assets/icons/android-chrome-512x512.png",
+    "revision": "53175f7a3b98826a88c0f3592fae58a6"
+  },
+  {
+    "url": "assets/icons/apple-touch-icon-152x152.png",
+    "revision": "637e1c6e6f90b2ab81120bcb0fcc8a08"
+  },
+  {
+    "url": "assets/icons/mstile-144x144.png",
+    "revision": "c322e9b21b04193481d6e0d0b0139836"
+  },
+  {
+    "url": "assets/icons/safari-pinned-tab.svg",
+    "revision": "5c5ec1434944478e032c065e8c9ea937"
   },
   {
     "url": "assets/image/logo.png",
@@ -78,12 +98,12 @@ self.__precacheManifest = [
     "revision": "a7fbfcc62127695b160e31031143defe"
   },
   {
-    "url": "assets/js/app.bfa9a0f3.js",
-    "revision": "0f65b6431c0f9dde71a39198eb42f3db"
+    "url": "assets/js/app.b2e75071.js",
+    "revision": "02b1d77676cf28c42cd4f6eaf39ad8c4"
   },
   {
     "url": "en-us/index.html",
-    "revision": "2bf7000f6bf4f4bc3676bf45c4db2f53"
+    "revision": "702084b779b588a18e58ed5be7abc151"
   },
   {
     "url": "index.html",
@@ -91,7 +111,7 @@ self.__precacheManifest = [
   },
   {
     "url": "zh-hans/index.html",
-    "revision": "9712304d64da7dbdcfe6579fe4be9fa3"
+    "revision": "145b9d22545800902e818a22b33a87c1"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
