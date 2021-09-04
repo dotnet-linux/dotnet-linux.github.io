@@ -17,9 +17,9 @@
     ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['link', { rel: 'apple-touch-icon', href: '/assets/icons/apple-touch-icon-152x152.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/assets/icons/apple-touch-icon.png' }],
     ['link', { rel: 'mask-icon', href: '/assets/icons/safari-pinned-tab.svg', color: '#5bbad5' }],
-    ['meta', { name: 'msapplication-TileImage', content: '/assets/icons/mstile-144x144.png' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/assets/icons/mstile.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#da532c' }]
   ],
   themeConfig: {
