@@ -30,8 +30,8 @@ jobs:
         run: yarn docs:build
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: docs/.vuepress/dist
+          token: ${{ github.token }}
+          branch: gh-pages
+          folder: docs/.vuepress/dist
